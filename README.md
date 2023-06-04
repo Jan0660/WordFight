@@ -6,4 +6,4 @@ The frontend uses React and TypeScript, while the backend is built on ASP.NET 7,
 
 The source code includes an English translation, but I couldn't be bothered to make a language switcher, so here it is in Czech:
 
-![Demo](https://github.com/Jan0660/WordFight/blob/master/demo.png?raw=true)
+![Demo](https://github.com/Jan0660/WordFight/blob/master/img/demo.png?raw=true)
