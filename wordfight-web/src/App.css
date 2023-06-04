@@ -1,0 +1,320 @@
+:root {
+  --background-primary: rgb(254, 254, 254);
+  --background-secondary: #e2e2e2;
+  --background-tertiary: #ffffff;
+  --foreground-primary: rgb(0, 0, 0);
+  --foreground-secondary: rgb(104, 104, 104);
+  --foreground-border: rgb(216, 216, 216);
+}
+
+body, #root, html {
+  height: 100%;
+  background-color: var(--background-secondary);
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.answerButton {
+  width: calc(100% - 4px);
+  height: 40px;
+}
+
+.page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* CARD */
+
+/* The most basic element - can be used to contain almost anything. */
+.card {
+  border: 1px solid var(--foreground-border);
+  margin: 10px;
+  padding: 10px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Adding a background to the card with the tertiary background color. */
+.card.background {
+  background: var(--background-tertiary);
+}
+
+/* Lists are moved left in cards to make it appear more compact. */
+.card ul {
+  margin: 0;
+  padding-left: 0.5cm;
+}
+
+.card.color-red {
+  border-left: 5px solid var(--red);
+}
+
+.card.color-green {
+  border-left: 5px solid var(--green);
+}
+
+.card.color-blue {
+  border-left: 5px solid var(--blue);
+}
+
+.card.color-yellow {
+  border-left: 5px solid var(--yellow);
+}
+
+.card.color-border {
+  border-left: 5px solid var(--foreground-border);
+}
+
+.card .card-header {
+  font-weight: bold;
+  padding-bottom: 0.25em;
+}
+
+.card .card-footer {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  color: var(--foreground-secondary);
+}
+/* BUTTONS */
+
+/* Your everyday button */
+.button {
+  background-color: var(--background-tertiary);
+  color: var(--foreground-primary);
+  font-size: medium;
+  box-shadow: none;
+  padding: 7px 9px;
+  border-radius: 4px;
+  margin: 2px;
+  border: 1px solid var(--foreground-border);
+  outline: none;
+  display: inline-block;
+  transition: filter 0.4s, border-color 0.4s, background-color 0.4s;
+  text-decoration: none;
+}
+
+
+/* This will invert the button colours to highlight it. */
+.button.selected {
+  color: var(--background-primary);
+  background-color: var(--foreground-primary);
+}
+
+.button.primary,
+.button.danger,
+.button.warn,
+.button.confirm {
+  border-color: transparent;
+}
+
+.button.primary {
+  background-color: var(--blue);
+}
+
+.button.danger {
+  background-color: var(--red);
+}
+
+.button.warn {
+  background-color: var(--yellow);
+}
+
+.button.confirm {
+  background-color: var(--green);
+}
+
+.button.hollow {
+  background: none;
+  border: 1px solid var(--foreground-border);
+}
+
+.button.borderless {
+  border: none;
+}
+
+
+.button:hover {
+  border: 1px solid var(--foreground-primary);
+  filter: brightness(130%);
+  cursor: pointer;
+}
+
+.button.hollow:hover {
+  border: 1px solid var(--foreground-primary);
+}
+
+.button.borderless:hover {
+  border: none
+}
+.button[disabled], .button[disabled]:hover {
+  filter: brightness(70%);
+  border: none;
+  cursor: default;
+}
+
+/*You will need this if the button isn't staying in shape*/
+.button-container {
+  display: inline-flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* INPUT */
+.input {
+  background-color: var(--background-primary);
+  color: var(--foreground-primary);
+  box-shadow: none;
+  padding: 7px;
+  border-radius: 4px;
+  margin: 5px;
+  border: 1px solid var(--foreground-border);
+  outline: none;
+  transition: filter 0.4s, border-color 0.4s;
+}
+
+.input.error {
+  border: 1px solid var(--red);
+}
+
+.input:hover,
+.input:focus{
+  border: 1px solid var(--foreground-primary);
+}
+.input:hover {
+  filter: brightness(130%);
+}
+
+.input[disabled], .input[disabled]:hover {
+  filter: brightness(70%);
+  border: none;
+}
+
+
+/* LINK */
+/* The link is set brighter to better suit dark mode.*/
+.link {
+  color: #38a7fc;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: #a697ea;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* SMALL CODE */
+code {
+  background-color: var(--background-primary);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/* CODE BLOCK */
+pre {
+  background-color: var(--background-primary);
+  border-left: 5px solid var(--foreground-border);
+  padding: 10px;
+  color: var(--foreground-primary);
+}
+
+
+/* QUOTE AND INFORMATION */
+.quote,
+.alert p,
+.info p,
+.warn p,
+.success p,
+.error p {
+  background: var(--background-primary);
+  padding: 0.5em 10px;
+  border: 1px solid;
+  border-left: 5px solid;
+  border-radius: 4px;
+}
+
+.quote {
+  border: none;
+  border-left: 5px solid;
+}
+
+.info p {
+  background-color: var(--blue);
+  border-color: #0077ff;
+}
+
+.warn p {
+  background-color: var(--yellow);
+  border-color: #efbf00;
+}
+
+.error p {
+  background-color: var(--red);
+  border-color: #bc0000;
+}
+
+.success p {
+  background-color: var(--green);
+  border-color: #00e600;
+}
+
+/* TABLE */
+.table {
+  background-color: var(--background-tertiary);
+  border-collapse: collapse;
+  border: 1px solid var(--foreground-border);
+}
+
+.table
+th, td {
+  border: 1px solid var(--foreground-border);
+  padding: 5px;
+}

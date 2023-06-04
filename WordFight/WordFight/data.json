@@ -1,0 +1,294 @@
+{
+  "$schema": "https://slave.waifusfor.sale/wordfight-schema.json?v=2",
+  "words": [
+    {
+      "text": "abbiegen",
+      "class": "irregular",
+      "irregular": "er ist abgebogen"
+    },
+    {
+      "text": "anfangen",
+      "class": "irregular",
+      "irregular": "er hat angefangen"
+    },
+    {
+      "text": "anbieten",
+      "class": "irregular",
+      "irregular": "er hat angeboten"
+    },
+    {
+      "text": "anrufen",
+      "class": "irregular",
+      "irregular": "er hat angerufen"
+    },
+    {
+      "text": "anziehen",
+      "class": "irregular",
+      "irregular": "er hat angezogen"
+    },
+    {
+      "text": "aufstehen",
+      "class": "irregular",
+      "irregular": "er ist aufgestanden"
+    },
+    {
+      "text": "aussehen",
+      "class": "irregular",
+      "irregular": "er hat ausgesehen"
+    },
+    {
+      "text": "aussteigen",
+      "class": "irregular",
+      "irregular": "er ist ausgestiegen"
+    },
+    {
+      "text": "backen",
+      "class": "irregular",
+      "irregular": "er hat gebacken"
+    },
+    {
+      "text": "beginnen",
+      "class": "irregular",
+      "irregular": "er hat begonnen"
+    },
+    {
+      "text": "bekommen",
+      "class": "irregular",
+      "irregular": "er hat bekommen"
+    },
+    {
+      "text": "bitten",
+      "class": "irregular",
+      "irregular": "er hat gebeten"
+    },
+    {
+      "text": "bleiben",
+      "class": "irregular",
+      "irregular": "er ist geblieben"
+    },
+    {
+      "text": "einladen",
+      "class": "irregular",
+      "irregular": "er hat eingeladen"
+    },
+    {
+      "text": "einschlafen",
+      "class": "irregular",
+      "irregular": "er ist eingeschlafen"
+    },
+    {
+      "text": "empfehlen",
+      "class": "irregular",
+      "irregular": "er hat empfohlen"
+    },
+    {
+      "text": "entscheiden",
+      "class": "irregular",
+      "irregular": "er hat entschieden"
+    },
+    {
+      "text": "essen",
+      "class": "irregular",
+      "irregular": "er hat gegessen"
+    },
+    {
+      "text": "fahren",
+      "class": "irregular",
+      "irregular": "er ist gefahren"
+    },
+    {
+      "text": "finden",
+      "class": "irregular",
+      "irregular": "er hat gefunden"
+    },
+    {
+      "text": "fliegen",
+      "class": "irregular",
+      "irregular": "er ist geflogen"
+    },
+    {
+      "text": "fernsehen",
+      "class": "irregular",
+      "irregular": "er hat ferngesehen"
+    },
+    {
+      "text": "geben",
+      "class": "irregular",
+      "irregular": "er hat gegeben"
+    },
+    {
+      "text": "gehen",
+      "class": "irregular",
+      "irregular": "er ist gegangen"
+    },
+    {
+      "text": "geniessen",
+      "class": "irregular",
+      "irregular": "er hat genossen"
+    },
+    {
+      "text": "gewinnen",
+      "class": "irregular",
+      "irregular": "er hat gewonnen"
+    },
+    {
+      "text": "halten",
+      "class": "irregular",
+      "irregular": "er hat gehalten"
+    },
+    {
+      "text": "heissen",
+      "class": "irregular",
+      "irregular": "er hat geheissen"
+    },
+    {
+      "text": "helfen",
+      "class": "irregular",
+      "irregular": "er hat geholfen"
+    },
+    {
+      "text": "kommen",
+      "class": "irregular",
+      "irregular": "er ist gekommen"
+    },
+    {
+      "text": "lassen",
+      "class": "irregular",
+      "irregular": "er hat gelassen"
+    },
+    {
+      "text": "laufen",
+      "class": "irregular",
+      "irregular": "er ist gelaufen"
+    },
+    {
+      "text": "lesen",
+      "class": "irregular",
+      "irregular": "er hat gelesen"
+    },
+    {
+      "text": "leiden",
+      "class": "irregular",
+      "irregular": "er hat gelitten"
+    },
+    {
+      "text": "liegen",
+      "class": "irregular",
+      "irregular": "er hat gelegen"
+    },
+    {
+      "text": "nehmen",
+      "class": "irregular",
+      "irregular": "er hat genommen"
+    },
+    {
+      "text": "reiten",
+      "class": "irregular",
+      "irregular": "er ist geritten"
+    },
+    {
+      "text": "rufen",
+      "class": "irregular",
+      "irregular": "er hat gerufen"
+    },
+    {
+      "text": "schlafen",
+      "class": "irregular",
+      "irregular": "er hat geschlafen"
+    },
+    {
+      "text": "schreiben",
+      "class": "irregular",
+      "irregular": "er hat geschrieben"
+    },
+    {
+      "text": "schwimmen",
+      "class": "irregular",
+      "irregular": "er ist geschwommen"
+    },
+    {
+      "text": "sehen",
+      "class": "irregular",
+      "irregular": "er hat gesehen"
+    },
+    {
+      "text": "singen",
+      "class": "irregular",
+      "irregular": "er hat gesungen"
+    },
+    {
+      "text": "sitzen",
+      "class": "irregular",
+      "irregular": "er hat gesessen"
+    },
+    {
+      "text": "sprechen",
+      "class": "irregular",
+      "irregular": "er hat gesprochen"
+    },
+    {
+      "text": "springen",
+      "class": "irregular",
+      "irregular": "er ist gesprungen"
+    },
+    {
+      "text": "stehen",
+      "class": "irregular",
+      "irregular": "er hat gestanden"
+    },
+    {
+      "text": "steigen",
+      "class": "irregular",
+      "irregular": "er ist gestiegen"
+    },
+    {
+      "text": "sterben",
+      "class": "irregular",
+      "irregular": "er ist gestorben"
+    },
+    {
+      "text": "treffen",
+      "class": "irregular",
+      "irregular": "er hat getroffen"
+    },
+    {
+      "text": "trinken",
+      "class": "irregular",
+      "irregular": "er hat getrunken"
+    },
+    {
+      "text": "vergessen",
+      "class": "irregular",
+      "irregular": "er hat vergessen"
+    },
+    {
+      "text": "verstehen",
+      "class": "irregular",
+      "irregular": "er hat verstanden"
+    },
+    {
+      "text": "verlieren",
+      "class": "irregular",
+      "irregular": "er hat verloren"
+    },
+    {
+      "text": "verbieten",
+      "class": "irregular",
+      "irregular": "er hat verboten"
+    },
+    {
+      "text": "verbringen",
+      "class": "irregular",
+      "irregular": "er hat verbracht"
+    },
+    {
+      "text": "waschen",
+      "class": "irregular",
+      "irregular": "er hat gewaschen"
+    },
+    {
+      "text": "einkaufen",
+      "class": "eingekauft"
+    }
+  ]
+}
