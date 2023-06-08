@@ -24,6 +24,8 @@ public static class Game
         {
             if (!existingPlayer.SocketTaskCompletionSource?.Task.IsCompleted ?? false)
                 existingPlayer.SocketTaskCompletionSource.SetResult();
+            player.IncorrectAnswers = existingPlayer.IncorrectAnswers;
+            player.CorrectAnswers = existingPlayer.CorrectAnswers;
             Players.Remove(existingPlayer);
         }
 
